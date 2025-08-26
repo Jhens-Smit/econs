@@ -32,7 +32,7 @@ body {
 .brand-circle {
   width: 56px;
   height: 56px;
-  border-radius: 50%;
+  border-radius: 30%;
   display: grid;
   place-items: center;
   background: black;
@@ -48,4 +48,7 @@ body {
 }
 .btn-social:hover {
   background: #f8f9fa;
+}
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.7); /* 0.7 = 70% opacidad */
 }

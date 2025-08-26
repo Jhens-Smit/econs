@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Municipalidad distrital del Tambo</title>
+  <title>Municipalidad distrital de chilca</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,10 +11,10 @@
 <body class="bg-light">
 
   <!-- Título principal con botones -->
-  <header class=" text-white py-3" style="background-color: #D19724;">
+  <header class=" text-white py-3" style="background-color: #091640;">
     <div class="container d-flex justify-content-between align-items-center">
       <a href="../login.php" class="btn btn-light btn-sm">Volver al inicio</a>
-      <h1 class="h3 m-0">Municipalidad distrital del Tambo</h1>
+      <h1 class="h3 m-0">Municipalidad distrital de chilca</h1>
       <div class="d-flex gap-2">
         
         <a href="../controlador/cerrar_sesion.php" class="btn btn-danger btn-sm">Cerrar sesión</a>
