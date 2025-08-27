@@ -52,3 +52,58 @@ body {
 .bg-dark-transparent {
   background-color: rgba(0, 0, 0, 0.7); /* 0.7 = 70% opacidad */
 }
+/* ======== VISTA MÓVIL ======== */
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem;
+    background: linear-gradient(
+      180deg,
+      var(--bg-start),
+      var(--bg-end)
+    ); /* Vertical para móvil */
+  }
+
+  /* Ajuste de contenedor del video */
+  #intro-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white; /* Fondo para evitar bordes vacíos */
+  }
+
+  #intro-video {
+    width: 100%;
+    height: 53%;
+    object-fit: cover; /* Ajusta el video para que cubra toda la pantalla */
+    border-radius: 0;
+    margin-top: -190px !important;
+  }
+  /* Tarjeta de login más compacta */
+  .login-card {
+    max-width: 90%;
+    padding: 1.2rem;
+    border-radius: 0.75rem;
+  }
+
+  /* Logo circular más pequeño */
+  .brand-circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .brand-circle img {
+    max-width: 65%;
+    max-height: 65%;
+  }
+
+  /* Botón de login más grande para dedo */
+  .btn-lg {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}

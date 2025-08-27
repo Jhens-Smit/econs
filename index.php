@@ -15,8 +15,7 @@ if (isset($_SESSION['error_login'])) {
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Iniciar sesión</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style/index.css">
 </head>
@@ -77,7 +76,18 @@ if (isset($_SESSION['error_login'])) {
       const video = document.getElementById('intro-video');
       const introContainer = document.getElementById('intro-video-container');
       const loginContainer = document.getElementById('login-container');
+
       video.playbackRate = 2.5;
+
+      let fallbackTimeout = setTimeout(() => {
+        introContainer.style.display = 'none';
+        loginContainer.classList.remove('d-none');
+      }, 3000); // 3 segundos máximo de espera
+
+      video.addEventListener('loadeddata', () => {
+        clearTimeout(fallbackTimeout); // Si el video carga antes, cancelamos el fallback
+      });
+
       video.onended = () => {
         introContainer.style.display = 'none';
         loginContainer.classList.remove('d-none');

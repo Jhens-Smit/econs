@@ -11,7 +11,7 @@
 <body class="bg-light">
 
   <!-- Título principal con botones -->
-  <header class=" text-white py-3" style="background-color: #0E8FA9;">
+  <header class=" text-white py-3" style="background-color: #54BB57;">
     <div class="container d-flex justify-content-between align-items-center">
       <a href="login.php" class="btn btn-light btn-sm">Volver al inicio</a>
       <h1 class="h3 m-0">SUNARP</h1>

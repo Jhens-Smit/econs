@@ -1,16 +1,6 @@
 <?php
 session_start();
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "db_econsperu";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
+include '../bd/conexion.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];

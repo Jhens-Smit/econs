@@ -21,21 +21,23 @@ if (!isset($_SESSION['usuario'])) {
     <!-- Encabezado con logo y nombre -->
     <div class="d-flex align-items-center justify-content-center mb-4 gap-3">
       <div class="brand-circle">
-        <img src="images/logo_f.png" alt="Logo" class="img-fluid">
+        <img src="images/logo_f.png" alt="Logo" class="img-fluid" style="filter: brightness(0) invert(1);">
+
       </div>
-      <h1 class="m-0" style="color: white; font-size: 5rem;">E'CONS PERU</h1>
+      <h1 class="m-0" style="color: white; font-size: 4rem;">E'CONS PERÚ</h1>
 
     </div><br>
 
     <!-- Botón Municipalidad con subopciones -->
     <div class="d-grid justify-content-center mb-3">
-     <button class="btn btn-lg" style="background-color: black; color: white; border: none;"
+     <button class="btn btn-lg" style="background-color: black; color: white; border: none; font-weight: bold;"
         type="button" data-bs-toggle="collapse" data-bs-target="#municipalidades"
         aria-expanded="false" aria-controls="municipalidades">
   Municipalidad
 </button>
+
       <div class="collapse mt-2" id="municipalidades">
-        <div class="card card-body bg-dark text-start">
+        <div class="card card-body bg-dark-black text-start">
           <a href="vista_municipalidad/municipalidad_tambo.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD DISTRITAL DE EL TAMBO</a>
           <a href="vista_municipalidad/municipalidad_huancayo.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD PROVINCIAL DE HUANCAYO</a>
           <a href="vista_municipalidad/municipalidad_huamancaca.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD DISTRITAL DE HUAMANCACA</a>
@@ -49,14 +51,14 @@ if (!isset($_SESSION['usuario'])) {
 
     <!-- Botón Sunarp -->
   <a href="sunarp.php" class="btn btn-lg mb-5"
-   style="background-color: black; color: white; border: none;">
+   style="background-color: black; color: white; border: none; font-weight: bold;">
   Sunarp
-</a><br><br><br><br>
+</a><br><br><br><br><br>
 
 
     <!-- Botón de cerrar sesión -->
     <form action="controlador/cerrar_sesion.php" method="POST">
-      <button type="submit" class="btn btn-black btn-lg">Cerrar sesión</button>
+      <button type="submit" class="btn btn-black btn-lg ">Cerrar sesión</button>
 
     </form>
   </div>

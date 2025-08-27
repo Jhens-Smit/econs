@@ -1,0 +1,102 @@
+body,
+html {
+  width: 100%;
+  overflow-x: hidden; /* elimina scroll horizontal */
+}
+
+.container,
+header,
+main,
+footer {
+  max-width: 100%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  nav.d-flex {
+    display: grid !important;
+
+    gap: 0.5rem; /* Espacio entre botones */
+    justify-content: center;
+  }
+
+  nav .btn,
+  nav .dropdown-toggle {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 96%; /* Para que ocupen toda su celda */
+    margin-left: 4px;
+  }
+
+  .dropdown-menu {
+    position: fixed; /* Que se posicione sobre la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Toda la altura visible */
+    overflow-y: auto; /* Permite hacer scroll solo dentro del menú si el contenido es largo */
+    background: #fff; /* Asegura el fondo blanco */
+    z-index: 1050; /* Para que quede encima de todo */
+    padding: 1rem;
+  }
+
+  .dropdown-menu .dropdown-item {
+    white-space: normal;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .dropdown-menu .dropdown-item span {
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 0.25rem;
+    color: gray;
+  }
+}
+@media (max-width: 768px) {
+  .notas {
+    font-size: 20px !important;
+  }
+  .btn-group-sm > .btn,
+  .btn-sm {
+    font-size: 8px !important;
+  }
+  .h3,
+  h3 {
+    font-size: 9px !important;
+  }
+  .btn {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+    width: auto; /* Que no se pasen de ancho */
+  }
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+#dynamic-content {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+#dynamic-content h2 {
+  font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+  .dropdown-item {
+    white-space: normal; /* Permite saltos de línea */
+    font-size: 0.8rem; /* Tamaño más compacto */
+    line-height: 1.2rem; /* Mejor legibilidad */
+    padding: 0.5rem 1rem; /* Espaciado cómodo para táctil */
+  }
+
+  .dropdown-item span {
+    display: block; /* Que baje debajo del título */
+    font-size: 0.65rem; /* Más pequeño para aclaración */
+    color: gray;
+    margin-top: 0.2rem;
+  }
+}

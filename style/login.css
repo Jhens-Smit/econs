@@ -28,8 +28,61 @@ body {
   background-color: dimgray;
   color: white;
   border: none;
+  font-weight: bold;
 }
 .btn-black:hover {
   background-color: #333;
   color: white;
+}
+.bg-dark-black {
+  --bs-bg-opacity: 1;
+  background-color: black !important;
+}
+/* ======== VISTA MÓVIL ======== */
+@media (max-width: 992px) {
+  body {
+    background: url("../images/construccion2.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 1rem !important;
+    text-align: center !important;
+  }
+
+  /* Logo y título */
+  .brand-circle {
+    width: 108px !important;
+    height: 115px !important;
+  }
+
+  .brand-circle img {
+    max-width: 80% !important;
+    max-height: 80% !important;
+  }
+
+  h1 {
+    font-size: 5.8rem !important;
+    color: white !important;
+  }
+
+  /* Botones */
+  .btn-lg {
+    font-size: 3rem !important;
+    padding: 0.8rem !important;
+  }
+
+  /* Elimina los espacios en blanco excesivos */
+  .container {
+    margin-top: 1rem !important;
+  }
+
+  /* Ajusta la sección de municipalidades */
+  #municipalidades .btn {
+    font-size: 1.9rem !important;
+    padding: 0.6rem !important;
+  }
+
+  html,
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
 }
