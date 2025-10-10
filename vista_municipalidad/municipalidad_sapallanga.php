@@ -77,13 +77,13 @@
   </nav>
 
   <!-- Área dinámica de contenido -->
-  <main class="container my-4">
+   <main class="container my-4">
     <div id="dynamic-content" class="p-4 bg-white rounded shadow-sm">
       <h2>Bienvenido</h2>
-      <p>Selecciona una opción de los menús superiores para ver más información.</p>
+      <p>Selecciona una opción de los menús superiores para ver más información.</p><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
   </main>
-
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 

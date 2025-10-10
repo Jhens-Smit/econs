@@ -121,7 +121,8 @@
   <main class="container my-4">
     <div id="dynamic-content" class="p-4 bg-white rounded shadow-sm">
       <h2>Bienvenido</h2>
-      <p>Selecciona una opción de los menús superiores para ver más información.</p>
+      <p>Selecciona una opción de los menús superiores para ver más información.</p><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
   </main>
 

@@ -64,10 +64,10 @@
     <!-- Botón 3 -->
     <div class="dropdown">
       <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-        Unificación
+        Prescripción Adquisitiva
       </button>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item content-link" href="#" data-target="funcion-solicitud">Solicitud</a></li>
+         <li><a class="dropdown-item content-link" href="#" data-target="certi-pos">COM. CAMPESINA SOLICITUD CONSTANCIA DE POSESIÓN</a></li>
         <li><a class="dropdown-item content-link" href="#" data-target="funcion-requisitos">Requisitos</a></li>
         <li><a class="dropdown-item content-link" href="#" data-target="funcion-tramites">Trámites en Línea</a></li>
       </ul>
@@ -90,10 +90,11 @@
   </nav>
 
   <!-- Área dinámica de contenido -->
-  <main class="container my-4">
+   <main class="container my-4">
     <div id="dynamic-content" class="p-4 bg-white rounded shadow-sm">
       <h2>Bienvenido</h2>
-      <p>Selecciona una opción de los menús superiores para ver más información.</p>
+      <p>Selecciona una opción de los menús superiores para ver más información.</p><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
   </main>
 
@@ -190,9 +191,25 @@
 
         </div> 
       `,
-      "habilitacion-solicitud": `
-        <h2>Solicitud - Habilitación Urbana</h2>
-        <p>Información para iniciar el proceso de habilitación urbana.</p>
+      "certi-pos": `
+        <h2 style="text-align: center;">SOLICITUD DE CONSTANCIA DE POSESIÓN
+         </h2>
+         <div style="text-align: justify;">
+        <ol>
+  <li>Copia legalizada (Por Notario) del DNI de los propietarios.</li>
+  <li>Copia legalizada (Por Notario) del documento de propiedad.</li>
+  <li>Copia legalizada (Por Notario) de la memoria descriptiva y plano realizado en sistema de coordenadas UTM Psad 56. Acompañado con la habilidad del profesional a cargo.</li>
+  <li>Copia legalizada de los documentos referentes al autoevaluó (HR, PU y recibo de pago).</li>
+  <li>Declaración jurada con firma legalizada del propietario (Formato).</li>
+  <li>Declaración jurada con firma legalizada de los colindantes (Formato).</li>
+  <li>Solicitud de formato FUT.</li>
+  <li>Copia del recibo de pago por concepto de constancia de posesión.</li>
+</ol>
+
+<p><strong>Notas:</strong></p>
+<p>Ingresar por mesa de partes (secretaría) todo lo solicitado debidamente foliado y ordenado en el folder correspondiente.</p>
+
+        </div> 
       `,
       "habilitacion-requisitos": `
         <h2>Requisitos - Habilitación Urbana</h2>
