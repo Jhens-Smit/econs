@@ -43,6 +43,7 @@
       </button>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item content-link" href="#" data-target="licencia-modalidad-a">MODALIDAD A <span style="font-size: 0.7em; font-weight: bold; color: gray;">(APROBACIÓN AUTOMÁTICA CON FIRMA DE PROFESIONALES RESPONSABLES)</span></a></li>
+        <li><a class="dropdown-item content-link" href="#" data-target="re-urb">REGULARIZACIÓN DE HABILITACIONES URBANAS EJECUTADAS</a></li>
         <li><a class="dropdown-item content-link" href="#" data-target="licencia-modalidad-b">MODALIDAD B <span style="font-size: 0.7em; font-weight: bold; color: gray;">(APROBACIÓN DEL PROYECTO CON EVALUACIÓN POR LA MUNICIPALIDAD)</span></a></li>
         <li><a class="dropdown-item content-link" href="#" data-target="licencia-modalidad-bb">MODALIDAD B <span style="font-size: 0.7em; font-weight: bold; color: gray;">(APROBACIÓN DEL PROYECTO CON EVALUACIÓN PREVIA POR LOS REVISORES URBANOS)</span></a></li>
         <li><a class="dropdown-item content-link" href="#" data-target="licencia-modalidad-c">MODALIDAD C <span style="font-size: 0.7em; font-weight: bold; color: gray;">(APROBACIÓN CON EVALUACIÓN PREVIA DEL PROYECTO POR REVISORES URBANOS)</span></a></li>
@@ -437,6 +438,45 @@
   <li>Toda la documentación técnica es firmada y sellada por el profesional responsable del proyecto, así como por el administrado, numeral 7.2 del Artículo 7 del D.S. N° 029-2019-VIVIENDA.</li>
   <li>En caso se solicite la independización de predios rústicos y la habilitación urbana en un solo procedimiento administrativo, el administrado debe presentar, además, los requisitos exigidos para el procedimiento administrativo de habilitación urbana que corresponda.</li>
 </ul>
+</div>
+      `,
+      "re-urb": `
+      <h2 style="text-align: center;">REGULARIZACIÓN DE HABILITACIONES URBANAS EJECUTADAS<br></h2>
+      <div style="text-align: justify;">
+        <ol type="A">
+  <li><strong>DOCUMENTO ADMINISTRATIVO</strong>
+    <ol>
+      <li>Formulario Único de Regularización en tres (03) juegos originales, debidamente suscritos por el administrado y, en la sección que corresponda, por el profesional responsable, en el que se consigne la información necesaria al procedimiento que se requiere iniciar, adjuntando copia del recibo del pago efectuado en el colegio profesional por derecho de revisión.</li>
+      <li style="color: darkgoldenrod;">En caso que el solicitante no sea el propietario del predio, debe presentar la documentación que acredite que cuenta con derecho a realizar una habilitación urbana.</li>
+    </ol>
+  </li>
+
+  <li><strong>DOCUMENTO TÉCNICO</strong>
+    <ol start="3">
+      <li>Plano de ubicación con la localización del terreno con coordenadas UTM.</li>
+      <li>Plano de lotización, conteniendo el perímetro del terreno, el diseño de la lotización, de las vías, aceras y bermas; y las áreas correspondientes a los aportes. La lotización deberá estar en concordancia con el Plan de Desarrollo Urbano-PDU aprobado por la Municipalidad Provincial correspondiente.</li>
+      <li>Plano Perimétrico y Topográfico del terreno, incluyendo la referencia topográfica a la vía urbanizada más cercana existente o con aprobación de proyectos.</li>
+      <li>Plano que indique los lotes ocupados y las alturas de las edificaciones existentes.</li>
+      <li>Memoria descriptiva, indicando las manzanas, de corresponder, las áreas de los lotes, la numeración y los aportes reglamentarios.</li>
+      <li>Copia de comprobante de pago de la multa por habilitar sin licencia. El valor de la multa es equivalente hasta el 10% del valor de la obra a regularizar tomando el promedio de los valores unitarios oficiales de edificación a la fecha de su ejecución y de la fecha de solicitud de la regularización.</li>
+      <li style="color: darkgoldenrod;">En caso que se cuente con estudios preliminares aprobados, no corresponde presentar el plano de ubicación con la localización del terreno y el plano de lotización, debiendo presentar en su reemplazo:
+        <ul>
+          <li>Resolución y planos de los estudios preliminares aprobados.</li>
+          <li>Planos de Replanteo de la Habilitación Urbana, de corresponder.</li>
+        </ul>
+      </li>
+      <li>Copia del comprobante de pago por revisión de proyecto al CAP. (Acorde al numeral 40.1.1 del Artículo 40 del D.S. N° 029-2019-VIVIENDA).</li>
+    </ol>
+  </li>
+</ol>
+
+<p><strong>Notas:</strong></p>
+<ol type="a">
+  <li>Según el Numeral 40.2, artículo 40 DS N°029-2019-VIVIENDA: Para solicitar la regularización de habilitaciones urbanas y de edificaciones ejecutadas sin licencia, el administrado presenta adicionalmente, los requisitos previstos en el Artículo 83° del D.S. N° 029-2019-VIVIENDA.</li>
+  <li>El Formulario y sus anexos deben ser debidamente firmados por el administrado y los profesionales que intervienen, numeral 7.1 del Artículo 7 del D.S. N° 029-2019-VIVIENDA.</li>
+  <li>Toda la documentación técnica es firmada y sellada por el profesional responsable del proyecto, así como por el administrado, numeral 7.2 del Artículo 7 del D.S. N° 029-2019-VIVIENDA.</li>
+</ol>
+
 </div>
       `,
       "sub-lote-urbano": `
