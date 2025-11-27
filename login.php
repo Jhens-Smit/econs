@@ -44,8 +44,8 @@ if (!isset($_SESSION['usuario'])) {
           <a href="vista_municipalidad/municipalidad_chilca.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD DISTRITAL DE CHILCA</a>
           <a href="vista_municipalidad/municipalidad_pilcomayo.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD DISTRITAL DE PILCOMAYO</a>
           <a href="vista_municipalidad/municipalidad_chupaca.php" class="btn btn-outline-light w-100 mb-2">MUNICIPALIDAD PROVINCIAL DE CHUPACA</a>
-          <!--<a href="vista_municipalidad/municipalidad_sapallanga.php" class="btn btn-outline-light w-100">MUNICIPALIDAD DISTRITAL DE SAPALLANGA</a>
-        --></div>
+          <a href="vista_municipalidad/municipalidad_sapallanga.php" class="btn btn-outline-light w-100">MUNICIPALIDAD DISTRITAL DE SAPALLANGA</a>
+        </div>
       </div>
     </div>
 
